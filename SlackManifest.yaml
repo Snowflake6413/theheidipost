@@ -1,0 +1,22 @@
+display_information:
+  name: heidi the postal worker
+  description: i track your dearly hack club packages
+  background_color: "#233b82"
+features:
+  bot_user:
+    display_name: heidi the postal worker
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - chat:write
+      - channels:read
+      - channels:history
+      - app_mentions:read
+      - message.channels
+settings:
+  interactivity:
+    is_enabled: true
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false
